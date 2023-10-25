@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
 export default function App() {
   return (
     <View style={styles.previewContainer}>
-      <Text>same component repeted multiple times, with increment count on 1 sec and change color</Text>
+      <Text>same component repeated multiple times, with an increment count on 1 sec and change color</Text>
       <View style={styles.container}>
         {
           [...Array(NO_OF_COMPONENTS).keys()].map(item => (
