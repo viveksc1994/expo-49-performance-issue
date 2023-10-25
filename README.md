@@ -8,4 +8,5 @@ you need to copy whole text from package-48.json or package-49.json. To run in w
 After copy need to hit below commands to get it run
 
 > npm install
+> 
 > npx expo start -c
